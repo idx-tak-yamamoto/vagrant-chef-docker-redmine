@@ -23,3 +23,6 @@ vagrant up --provision
 
 5.確認  
 http://localhost:3000/  
+
+id:admin  
+pass:admin  

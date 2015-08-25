@@ -29,13 +29,13 @@ end
 
 execute "pull_redmine" do
   user "root"
-  command "docker pull sameersbn/redmine"
+  command "docker pull sameersbn/redmine:latest"
   action :run
 end
 
 execute "pull_mysql" do
   user "root"
-  command "docker pull sameersbn/redmine:latest"
+  command "docker pull sameersbn/mysql:latest"
   action :run
 end
 
